@@ -1,13 +1,40 @@
-Web Scrapper
-This is a simple web scrapper built using Python and BeautifulSoup. It allows you to scrape data from a website and save it in a CSV file.
-Installation To install the required libraries, run the following command:
-```pip install -r requirements.txt
-```     Usage To use the web scrapper, run the following command:
-```python web_scrapper.py
+# Web Scraper
+
+A simple web scraper built using Python and BeautifulSoup for extracting data from websites and saving it to CSV format.
+
+## Installation
+
+Install required dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
-This will start the web scrapper and it will prompt you to enter the URL of the website you want to scrape. After you enter the URL, it will scrape the data and save it in a CSV file named "scraped_data.csv".
-Note: Make sure to have the required permissions to scrape the website and respect the website's robots
-.txt file.
-License This project is licensed under the MIT License - see the LICENSE file for details.
-Contributing Contributions are welcome! If you want to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to follow the coding style and include tests for your changes.
-Contact If you have any questions or suggestions, feel free to contact me at [nighteyedevelopers]@gmail.com.
+
+## Usage
+
+Run the scraper:
+
+```bash
+python web_scrapper.py
+```
+
+The scraper will prompt you to enter a website URL, then extract the data and save it to `scraped_data.csv`.
+
+**Note:** Ensure you have permission to scrape the target website and respect its `robots.txt` file.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please:
+- Fork the repository
+- Create a feature branch
+- Add tests for your changes
+- Follow the project's coding style
+- Submit a pull request
+
+## Contact
+
+For questions or suggestions, contact: [nighteyedevelopers@gmail.com](mailto:nighteyedevelopers@gmail.com)
